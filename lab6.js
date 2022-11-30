@@ -40,4 +40,31 @@ function setEnglish() {
    document.getElementById('reset-button').value= 'reset';
 }
 
+function showAlert() {
+    let userName = document.getElementById('input-name').value;
+    let userSurname = document.getElementById('input-surname').value;
+    let userAge = document.getElementById('input-age').value;
+    alert('Привет, ' + userName + ' ' + userSurname + '\n' + 'Ваш возраст:' + userAge);
+    let r = Math.round(Math.random()*255);
+    let g = Math.round(Math.random()*255);
+    let b = Math.round(Math.random()*255);
+    let color = 'rgb(' + r + ',' + g + ',' + b + ')'; 
+    document.getElementById('user-data').style.backgroundColor =  color;
+}
+
+function StudFullName() {
+    let studentName = document.getElementById('student').innerHTML;
+    alert ('Работу подготовил студент' + ' ' + studentName);
+    let r = Math.round(Math.random()*255);
+    let g = Math.round(Math.random()*255);
+    let b = Math.round(Math.random()*255);
+    let color = 'rgb(' + r + ',' + g + ',' + b + ')'; 
+    document.getElementById('student').style.backgroundColor =  color;
+}
+
+    function InfoFooter() {
+        let footer =  document.getElementById('footer').innerHTML;
+        alert ('Факультет, группа, курс, год:' + footer);
+        document.getElementById('footer').style.backgroundColor = 'green' ;
+    }
 
