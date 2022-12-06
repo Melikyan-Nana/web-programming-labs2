@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, Arial, Helvetica, sans-serif;
-    background-color: bisque;
+    background-color: white;
 }
 .header {
     color: white;
@@ -35,4 +35,10 @@ body{
     background-color: rgb(155, 118, 190);
     text-align: center;
     line-height: 90px;
+}
+.snezhinka {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    
 }
