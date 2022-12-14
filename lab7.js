@@ -66,6 +66,10 @@ function makeSnow() {
     
 }
 
+function makepoem() {
+    
+}
+
 function AllFunctions() {
     makeStairs();
     makeSnow();
