@@ -69,4 +69,5 @@ function makeSnow() {
 function AllFunctions() {
     makeStairs();
     makeSnow();
+    makepoem();
 }
