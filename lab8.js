@@ -26,6 +26,18 @@ function showTime(){
 window.addEventListener('load', showTime);
 setInterval(showTime, 1000);
 
+function showNewDate(params){
+    let inputDate = document.querySelector('input[type=date]');
+    let birthday = new Date(inputDate.value);
+
+    let days = document.querySelector('input[type=number]').value;
+
+    let NewDate = birthday.getTime () + days*24*60*60*1000;
+    NewDate = new Date(NewDate);
+
+   resdays.innerHTML = 'Круглая дата:' + NewDate;
+}
+
 
 
 
