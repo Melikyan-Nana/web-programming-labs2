@@ -42,4 +42,13 @@ body{
     right: 0;
 }
 
+#coords{
+    color:antiquewhite;
+    background: #0b23aa;
+    height: 500px;
+    width: 500px ;
+    text-align: center;
+    line-height: 30em;
+}
+
 
